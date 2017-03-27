@@ -1,0 +1,1 @@
+<Playlist Version="1.0"><Add Test="ConciergeAcceptensTest.ViewMyOrdersFeature.CheckProductOrderApperence" /><Add Test="ConciergeAcceptensTest.ViewGetRoomsFeature.CheckRoomInformation" /><Add Test="ConciergeAcceptensTest.ViewGetHotelFeature.CheckHotelInformation" /></Playlist>
