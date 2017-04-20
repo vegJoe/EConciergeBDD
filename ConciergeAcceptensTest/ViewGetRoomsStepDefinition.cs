@@ -54,7 +54,7 @@ namespace ConciergeAcceptensTest
         //    ScenarioContext.Current.Pending();
         //}
 
-        [Then(@"the correct information should be delivered")]
+        [Then(@"the correct information should be delivered when getRooms is used")]
         public void ThenTheCorrectInformationShouldBeDelivered()
         {         
             int tmpNum;

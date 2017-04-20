@@ -6,5 +6,4 @@
 Scenario: Check hotels information
 	Given eConcierge backend is up and running
 	And There are atleast 2 hotels
-	When getHotels is used
-	Then the correct information should be delivered
+	Then the correct information should be delivered via getHotels

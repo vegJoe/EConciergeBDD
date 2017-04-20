@@ -18,19 +18,20 @@ namespace ConciergeAcceptensTest
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "2.1.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute()]
-    public partial class ViewGetHotelsFeature
+    public partial class ViewGetRoomFeature
     {
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
         
-#line 1 "ViewGetHotels.feature"
+#line 1 "ViewGetRoom.feature"
 #line hidden
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.ClassInitializeAttribute()]
         public static void FeatureSetup(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext testContext)
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner(null, 0);
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "ViewGetHotels", "\tCheck the information about hotels\r\n\tthat is passed to the browser/application", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "ViewGetRoom", "\tCheck the information about a specific room\r\n\tthat is passed to the browser/appl" +
+                    "ication", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -45,9 +46,9 @@ namespace ConciergeAcceptensTest
         public virtual void TestInitialize()
         {
             if (((testRunner.FeatureContext != null) 
-                        && (testRunner.FeatureContext.FeatureInfo.Title != "ViewGetHotels")))
+                        && (testRunner.FeatureContext.FeatureInfo.Title != "ViewGetRoom")))
             {
-                ConciergeAcceptensTest.ViewGetHotelsFeature.FeatureSetup(null);
+                ConciergeAcceptensTest.ViewGetRoomFeature.FeatureSetup(null);
             }
         }
         
@@ -68,21 +69,21 @@ namespace ConciergeAcceptensTest
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check hotels information")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "ViewGetHotels")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check room information")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "ViewGetRoom")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
-        public virtual void CheckHotelsInformation()
+        public virtual void CheckRoomInformation()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check hotels information", new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check room information", new string[] {
                         "mytag"});
 #line 6
 this.ScenarioSetup(scenarioInfo);
 #line 7
  testRunner.Given("eConcierge backend is up and running", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 8
- testRunner.And("There are atleast 2 hotels", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("There are atleast 1 room", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 9
- testRunner.Then("the correct information should be delivered via getHotels", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("the correct information should be delivered when getRoom is used", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

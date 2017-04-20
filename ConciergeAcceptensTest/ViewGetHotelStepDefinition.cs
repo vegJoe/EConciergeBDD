@@ -48,11 +48,11 @@ namespace ConciergeAcceptensTest
             }
         }
 
-        [When(@"getHotel is used")]
-        public void WhenGetHotelIsUsed()
-        {
-            ScenarioContext.Current.Pending();
-        }
+        //[When(@"getHotel is used")]
+        //public void WhenGetHotelIsUsed()
+        //{
+        //    ScenarioContext.Current.Pending();
+        //}
 
 
         [Then(@"the correct information should be delivered via getHotel")]
